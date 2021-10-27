@@ -29,17 +29,3 @@ describe('Infinite scroll', () => {
     }
   });
 });
-// for (let i = 0; i < 5; i++) {
-//   cy.get('div.jscroll-inner')
-//     .children()
-//     .should('have.lengthOf', i)
-//     .its('length')
-//     .then(children => {
-//       cy.wrap(children)
-//         .its('length')
-//         .should('eq', numberOfChildren)
-//     })
-//   cy.scrollTo('bottom', {duration: 5000})
-//     .wait('@blog')
-//     .then(() => numberOfChildren += 4)
-// }

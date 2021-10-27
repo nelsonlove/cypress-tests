@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 // 2. One of our pain points with automating ESP is drag and drop. http://the-internet.herokuapp.com/drag_and_drop
 // has a very simple website that allows you to drag one element to another and they swap places. Please write a
 // test that drags 'A' to 'B' and assert they changed place.

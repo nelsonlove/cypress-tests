@@ -2,7 +2,6 @@
 
 import findWord from '../../findWord.js';
 
-// Test cases
 const tests = [
   {
     desc: '3x3 grid',
