@@ -50,10 +50,13 @@ export default function findWord(grid, word) {
 
   for (let iy = 0; iy < grid.length; iy++) {
     for (let ix = 0; ix < grid[0].length; ix++) {
-      if (traverse(ix, iy, word.split(''), new Set())) {
+      if (grid[iy][ix] === word) {
+        return true;  // Needed for 1x1 grids
+      } else if (traverse(ix, iy, word.split(''), new Set())) {
         return true;
       }
     }
   }
   return false;
 }
+
