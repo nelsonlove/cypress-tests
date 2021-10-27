@@ -1,6 +1,6 @@
 # cypress-tests
 
-This repo includes Cypress test files for three UI components found at [the-internet.herokuapp.com](http://the-internet.herokuapp.com):
+This repo includes Cypress test files for three UI components from [the-internet.herokuapp.com](http://the-internet.herokuapp.com).
 
 - [`/cypress/integration/1-iframe.spec.js`](https://github.com/nelsonlove/cypress-tests/blob/main/cypress/integration/1-iframe.spec.js): Test of [TinyMCE text editor in iframe](http://the-internet.herokuapp.com/iframe). Types message into iframe, uses menu to format text, and asserts that text was formatted correctly.
 - [`/cypress/integration/2-drag-and-drop.spec.js`](https://github.com/nelsonlove/cypress-tests/blob/main/cypress/integration/2-drag-and-drop.spec.js): Test of [Drag and drop](http://the-internet.herokuapp.com/drag_and_drop). Drags element A to element B's place and asserts that they changed places.
