@@ -12,4 +12,4 @@ The repo also contains a JavaScript function, `find_word()`, which takes as inpu
 
 ## Workflow
 
-I have included a GitHub Actions workflow which starts Cypress and runs the included tests; its YAML file can be found at [`/.github/workflows/cypress-tests.yml`](https://github.com/nelsonlove/cypress-tests/blob/main/.github/workflows/cypress-tests.yml). (A quick way to run these tests would be to fork this repository and manually invoke the workflow.)
+I have included a GitHub Actions workflow which starts Cypress and runs the tests; its YAML file can be found at [`/.github/workflows/cypress-tests.yml`](https://github.com/nelsonlove/cypress-tests/blob/main/.github/workflows/cypress-tests.yml). (A quick way to run the tests would be to fork this repository and manually invoke the workflow.)
