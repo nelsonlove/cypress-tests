@@ -1,0 +1,14 @@
+name: Cypress tests
+on: 
+  workflow_dispatch:
+  push:
+jobs:
+  build-and-test:
+    name: Install dependencies and run Cypress tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install node dependencies
+      uses: bahmutov/npm-install@v1
+    - name: Run cypress
+      uses: cypress-io/github-action@v2
